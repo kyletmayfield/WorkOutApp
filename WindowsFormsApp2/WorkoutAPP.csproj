@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9513DB6A-2F25-45A1-9106-77EEECB9AEAC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp2</RootNamespace>
+    <AssemblyName>WindowsFormsApp2</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Categories\Arms.cs" />
+    <Compile Include="Categories\Back.cs" />
+    <Compile Include="Categories\Cardio.cs" />
+    <Compile Include="Categories\Chest.cs" />
+    <Compile Include="Categories\Legs.cs" />
+    <Compile Include="Categories\Shoulders.cs" />
+    <Compile Include="Categories\Stretch.cs" />
+    <Compile Include="Exercise.cs" />
+    <Compile Include="ExerciseCategory.cs" />
+    <Compile Include="Exercises\BackFocus.cs" />
+    <Compile Include="Exercises\BackwardsWalk.cs" />
+    <Compile Include="Exercises\BalanceFocus.cs" />
+    <Compile Include="Exercises\BenchPress.cs" />
+    <Compile Include="Exercises\BentRearDelts.cs" />
+    <Compile Include="Exercises\Bike10.cs" />
+    <Compile Include="Exercises\CableShoulders.cs" />
+    <Compile Include="Exercises\CableTricepts.cs" />
+    <Compile Include="Exercises\CalfRaises.cs" />
+    <Compile Include="Exercises\ChestFocus.cs" />
+    <Compile Include="Exercises\CoreFocus.cs" />
+    <Compile Include="Exercises\DeadLifts.cs" />
+    <Compile Include="Exercises\DeclinePress.cs" />
+    <Compile Include="Exercises\Diamonds.cs" />
+    <Compile Include="Exercises\Dips.cs" />
+    <Compile Include="Exercises\DipsMachine.cs" />
+    <Compile Include="Exercises\DumBellLowLats.cs" />
+    <Compile Include="Exercises\Elipticle10.cs" />
+    <Compile Include="Exercises\Flys.cs" />
+    <Compile Include="Exercises\ForeArms.cs" />
+    <Compile Include="Exercises\FrontRaises.cs" />
+    <Compile Include="Exercises\Glutes.cs" />
+    <Compile Include="Exercises\Hamstrings.cs" />
+    <Compile Include="Exercises\HipAbduction.cs" />
+    <Compile Include="Exercises\HipFocus.cs" />
+    <Compile Include="Exercises\HipInduction.cs" />
+    <Compile Include="Exercises\InclineDumBellCurls.cs" />
+    <Compile Include="Exercises\InclinePress.cs" />
+    <Compile Include="Exercises\InclineWalk.cs" />
+    <Compile Include="Exercises\IsolatedTricepts.cs" />
+    <Compile Include="Exercises\Jog1.cs" />
+    <Compile Include="Exercises\LatPullDowns.cs" />
+    <Compile Include="Exercises\LatteralRaises.cs" />
+    <Compile Include="Exercises\LegCurls.cs" />
+    <Compile Include="Exercises\LegLifts.cs" />
+    <Compile Include="Exercises\LowerBackRecline.cs" />
+    <Compile Include="Exercises\PreacherCurls.cs" />
+    <Compile Include="Exercises\PullUps.cs" />
+    <Compile Include="Exercises\Pushups.cs" />
+    <Compile Include="Exercises\SeatedRearDelts.cs" />
+    <Compile Include="Exercises\SeatedRow.cs" />
+    <Compile Include="Exercises\ShoulderFocus.cs" />
+    <Compile Include="Exercises\ShoulderInclinePress.cs" />
+    <Compile Include="Exercises\SideRaises.cs" />
+    <Compile Include="Exercises\Squats.cs" />
+    <Compile Include="Exercises\Steps10.cs" />
+    <Compile Include="Exercises\VerticleBarBellCurls.cs" />
+    <Compile Include="Exercises\Walk1.cs" />
+    <Compile Include="Exercises\YogaMatMobility.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
