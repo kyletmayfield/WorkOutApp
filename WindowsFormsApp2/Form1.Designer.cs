@@ -28,311 +28,226 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.lblChest = new System.Windows.Forms.Label();
-            this.lblArms = new System.Windows.Forms.Label();
-            this.lblLegs = new System.Windows.Forms.Label();
-            this.lblShoulders = new System.Windows.Forms.Label();
-            this.lblBack = new System.Windows.Forms.Label();
-            this.lblCardio = new System.Windows.Forms.Label();
-            this.lblStretch = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.lblFullBody = new System.Windows.Forms.Label();
-            this.lblSplitsLegs = new System.Windows.Forms.Label();
-            this.lblSplitsPull = new System.Windows.Forms.Label();
-            this.lblSplitsPush = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.lblSplitsRecovery = new System.Windows.Forms.Label();
+            this.btnFullBody = new System.Windows.Forms.Button();
+            this.lbl4 = new System.Windows.Forms.Label();
+            this.lbl5 = new System.Windows.Forms.Label();
+            this.lbl6 = new System.Windows.Forms.Label();
+            this.lbl7 = new System.Windows.Forms.Label();
+            this.lbl8 = new System.Windows.Forms.Label();
+            this.lbl9 = new System.Windows.Forms.Label();
+            this.lbl3 = new System.Windows.Forms.Label();
+            this.lbl2 = new System.Windows.Forms.Label();
+            this.lbl1 = new System.Windows.Forms.Label();
+            this.btnPush = new System.Windows.Forms.Button();
+            this.btnPull = new System.Windows.Forms.Button();
+            this.btnLegs = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // btnFullBody
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.SandyBrown;
-            this.button1.Location = new System.Drawing.Point(140, 804);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(299, 52);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Reset Workout";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnFullBody.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.btnFullBody.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFullBody.ForeColor = System.Drawing.Color.SandyBrown;
+            this.btnFullBody.Location = new System.Drawing.Point(101, 600);
+            this.btnFullBody.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnFullBody.Name = "btnFullBody";
+            this.btnFullBody.Size = new System.Drawing.Size(299, 52);
+            this.btnFullBody.TabIndex = 0;
+            this.btnFullBody.Text = "Full Body";
+            this.btnFullBody.UseVisualStyleBackColor = false;
+            this.btnFullBody.Click += new System.EventHandler(this.button1_Click);
             // 
-            // lblChest
+            // lbl4
             // 
-            this.lblChest.BackColor = System.Drawing.Color.SandyBrown;
-            this.lblChest.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblChest.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblChest.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.lblChest.Location = new System.Drawing.Point(140, 438);
-            this.lblChest.Name = "lblChest";
-            this.lblChest.Size = new System.Drawing.Size(299, 50);
-            this.lblChest.TabIndex = 2;
-            this.lblChest.Text = "Chest";
-            this.lblChest.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl4.BackColor = System.Drawing.Color.SandyBrown;
+            this.lbl4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl4.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.lbl4.Location = new System.Drawing.Point(101, 254);
+            this.lbl4.Name = "lbl4";
+            this.lbl4.Size = new System.Drawing.Size(299, 50);
+            this.lbl4.TabIndex = 2;
+            this.lbl4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lblArms
+            // lbl5
             // 
-            this.lblArms.BackColor = System.Drawing.Color.SandyBrown;
-            this.lblArms.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblArms.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblArms.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.lblArms.Location = new System.Drawing.Point(140, 486);
-            this.lblArms.Name = "lblArms";
-            this.lblArms.Size = new System.Drawing.Size(299, 50);
-            this.lblArms.TabIndex = 3;
-            this.lblArms.Text = "Arms";
-            this.lblArms.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl5.BackColor = System.Drawing.Color.SandyBrown;
+            this.lbl5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl5.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.lbl5.Location = new System.Drawing.Point(101, 302);
+            this.lbl5.Name = "lbl5";
+            this.lbl5.Size = new System.Drawing.Size(299, 50);
+            this.lbl5.TabIndex = 3;
+            this.lbl5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lblLegs
+            // lbl6
             // 
-            this.lblLegs.BackColor = System.Drawing.Color.SandyBrown;
-            this.lblLegs.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblLegs.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLegs.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.lblLegs.Location = new System.Drawing.Point(140, 536);
-            this.lblLegs.Name = "lblLegs";
-            this.lblLegs.Size = new System.Drawing.Size(299, 50);
-            this.lblLegs.TabIndex = 4;
-            this.lblLegs.Text = "legs";
-            this.lblLegs.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl6.BackColor = System.Drawing.Color.SandyBrown;
+            this.lbl6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl6.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.lbl6.Location = new System.Drawing.Point(101, 352);
+            this.lbl6.Name = "lbl6";
+            this.lbl6.Size = new System.Drawing.Size(299, 50);
+            this.lbl6.TabIndex = 4;
+            this.lbl6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lblShoulders
+            // lbl7
             // 
-            this.lblShoulders.BackColor = System.Drawing.Color.SandyBrown;
-            this.lblShoulders.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblShoulders.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblShoulders.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.lblShoulders.Location = new System.Drawing.Point(140, 585);
-            this.lblShoulders.Name = "lblShoulders";
-            this.lblShoulders.Size = new System.Drawing.Size(299, 50);
-            this.lblShoulders.TabIndex = 5;
-            this.lblShoulders.Text = "Shoulders";
-            this.lblShoulders.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl7.BackColor = System.Drawing.Color.SandyBrown;
+            this.lbl7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl7.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.lbl7.Location = new System.Drawing.Point(101, 401);
+            this.lbl7.Name = "lbl7";
+            this.lbl7.Size = new System.Drawing.Size(299, 50);
+            this.lbl7.TabIndex = 5;
+            this.lbl7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lblBack
+            // lbl8
             // 
-            this.lblBack.BackColor = System.Drawing.Color.SandyBrown;
-            this.lblBack.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBack.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.lblBack.Location = new System.Drawing.Point(140, 633);
-            this.lblBack.Name = "lblBack";
-            this.lblBack.Size = new System.Drawing.Size(299, 50);
-            this.lblBack.TabIndex = 6;
-            this.lblBack.Text = "Back";
-            this.lblBack.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl8.BackColor = System.Drawing.Color.SandyBrown;
+            this.lbl8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl8.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.lbl8.Location = new System.Drawing.Point(101, 449);
+            this.lbl8.Name = "lbl8";
+            this.lbl8.Size = new System.Drawing.Size(299, 50);
+            this.lbl8.TabIndex = 6;
+            this.lbl8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lblCardio
+            // lbl9
             // 
-            this.lblCardio.BackColor = System.Drawing.Color.SandyBrown;
-            this.lblCardio.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblCardio.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCardio.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.lblCardio.Location = new System.Drawing.Point(140, 682);
-            this.lblCardio.Name = "lblCardio";
-            this.lblCardio.Size = new System.Drawing.Size(299, 50);
-            this.lblCardio.TabIndex = 7;
-            this.lblCardio.Text = "Cardio";
-            this.lblCardio.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl9.BackColor = System.Drawing.Color.SandyBrown;
+            this.lbl9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl9.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.lbl9.Location = new System.Drawing.Point(101, 498);
+            this.lbl9.Name = "lbl9";
+            this.lbl9.Size = new System.Drawing.Size(299, 50);
+            this.lbl9.TabIndex = 7;
+            this.lbl9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lblStretch
+            // lbl3
             // 
-            this.lblStretch.BackColor = System.Drawing.Color.SandyBrown;
-            this.lblStretch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblStretch.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblStretch.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.lblStretch.Location = new System.Drawing.Point(140, 732);
-            this.lblStretch.Name = "lblStretch";
-            this.lblStretch.Size = new System.Drawing.Size(299, 50);
-            this.lblStretch.TabIndex = 8;
-            this.lblStretch.Text = "Stretch";
-            this.lblStretch.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl3.BackColor = System.Drawing.Color.SandyBrown;
+            this.lbl3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl3.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.lbl3.Location = new System.Drawing.Point(101, 206);
+            this.lbl3.Name = "lbl3";
+            this.lbl3.Size = new System.Drawing.Size(299, 50);
+            this.lbl3.TabIndex = 17;
+            this.lbl3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label2
+            // lbl2
             // 
-            this.label2.BackColor = System.Drawing.Color.SandyBrown;
-            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label2.Location = new System.Drawing.Point(927, 691);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(299, 50);
-            this.label2.TabIndex = 17;
-            this.label2.Text = "Stretch";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl2.BackColor = System.Drawing.Color.SandyBrown;
+            this.lbl2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl2.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.lbl2.Location = new System.Drawing.Point(101, 156);
+            this.lbl2.Name = "lbl2";
+            this.lbl2.Size = new System.Drawing.Size(299, 50);
+            this.lbl2.TabIndex = 16;
+            this.lbl2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label3
+            // lbl1
             // 
-            this.label3.BackColor = System.Drawing.Color.SandyBrown;
-            this.label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label3.Location = new System.Drawing.Point(927, 641);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(299, 50);
-            this.label3.TabIndex = 16;
-            this.label3.Text = "Cardio";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl1.BackColor = System.Drawing.Color.SandyBrown;
+            this.lbl1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl1.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.lbl1.Location = new System.Drawing.Point(101, 107);
+            this.lbl1.Name = "lbl1";
+            this.lbl1.Size = new System.Drawing.Size(299, 50);
+            this.lbl1.TabIndex = 15;
+            this.lbl1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label4
+            // btnPush
             // 
-            this.label4.BackColor = System.Drawing.Color.SandyBrown;
-            this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label4.Location = new System.Drawing.Point(927, 592);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(299, 50);
-            this.label4.TabIndex = 15;
-            this.label4.Text = "Back";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnPush.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.btnPush.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPush.ForeColor = System.Drawing.Color.SandyBrown;
+            this.btnPush.Location = new System.Drawing.Point(101, 656);
+            this.btnPush.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnPush.Name = "btnPush";
+            this.btnPush.Size = new System.Drawing.Size(299, 52);
+            this.btnPush.TabIndex = 9;
+            this.btnPush.Text = "Push";
+            this.btnPush.UseVisualStyleBackColor = false;
+            this.btnPush.Click += new System.EventHandler(this.btnPush_Click);
             // 
-            // lblFullBody
+            // btnPull
             // 
-            this.lblFullBody.BackColor = System.Drawing.Color.SandyBrown;
-            this.lblFullBody.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblFullBody.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFullBody.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.lblFullBody.Location = new System.Drawing.Point(52, 93);
-            this.lblFullBody.Name = "lblFullBody";
-            this.lblFullBody.Size = new System.Drawing.Size(299, 50);
-            this.lblFullBody.TabIndex = 14;
-            this.lblFullBody.Text = "Full Body";
-            this.lblFullBody.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lblFullBody.Click += new System.EventHandler(this.label5_Click);
+            this.btnPull.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.btnPull.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPull.ForeColor = System.Drawing.Color.SandyBrown;
+            this.btnPull.Location = new System.Drawing.Point(101, 712);
+            this.btnPull.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnPull.Name = "btnPull";
+            this.btnPull.Size = new System.Drawing.Size(299, 52);
+            this.btnPull.TabIndex = 18;
+            this.btnPull.Text = "Pull";
+            this.btnPull.UseVisualStyleBackColor = false;
+            this.btnPull.Click += new System.EventHandler(this.btnPull_Click);
             // 
-            // lblSplitsLegs
+            // btnLegs
             // 
-            this.lblSplitsLegs.BackColor = System.Drawing.Color.SandyBrown;
-            this.lblSplitsLegs.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblSplitsLegs.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSplitsLegs.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.lblSplitsLegs.Location = new System.Drawing.Point(967, 93);
-            this.lblSplitsLegs.Name = "lblSplitsLegs";
-            this.lblSplitsLegs.Size = new System.Drawing.Size(299, 50);
-            this.lblSplitsLegs.TabIndex = 13;
-            this.lblSplitsLegs.Text = "Splits - Legs";
-            this.lblSplitsLegs.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lblSplitsLegs.Click += new System.EventHandler(this.label6_Click);
-            // 
-            // lblSplitsPull
-            // 
-            this.lblSplitsPull.BackColor = System.Drawing.Color.SandyBrown;
-            this.lblSplitsPull.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblSplitsPull.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSplitsPull.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.lblSplitsPull.Location = new System.Drawing.Point(662, 93);
-            this.lblSplitsPull.Name = "lblSplitsPull";
-            this.lblSplitsPull.Size = new System.Drawing.Size(299, 50);
-            this.lblSplitsPull.TabIndex = 12;
-            this.lblSplitsPull.Text = "Splits - Pull";
-            this.lblSplitsPull.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblSplitsPush
-            // 
-            this.lblSplitsPush.BackColor = System.Drawing.Color.SandyBrown;
-            this.lblSplitsPush.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblSplitsPush.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSplitsPush.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.lblSplitsPush.Location = new System.Drawing.Point(357, 93);
-            this.lblSplitsPush.Name = "lblSplitsPush";
-            this.lblSplitsPush.Size = new System.Drawing.Size(299, 50);
-            this.lblSplitsPush.TabIndex = 11;
-            this.lblSplitsPush.Text = "Splits - Push";
-            this.lblSplitsPush.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label9
-            // 
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label9.Location = new System.Drawing.Point(662, 26);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(299, 50);
-            this.label9.TabIndex = 10;
-            this.label9.Text = "Kyle\'s Workout";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.SandyBrown;
-            this.button2.Location = new System.Drawing.Point(927, 763);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(299, 52);
-            this.button2.TabIndex = 9;
-            this.button2.Text = "Reset Workout";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // lblSplitsRecovery
-            // 
-            this.lblSplitsRecovery.BackColor = System.Drawing.Color.SandyBrown;
-            this.lblSplitsRecovery.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblSplitsRecovery.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSplitsRecovery.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.lblSplitsRecovery.Location = new System.Drawing.Point(1272, 93);
-            this.lblSplitsRecovery.Name = "lblSplitsRecovery";
-            this.lblSplitsRecovery.Size = new System.Drawing.Size(299, 50);
-            this.lblSplitsRecovery.TabIndex = 18;
-            this.lblSplitsRecovery.Text = "Splits - Recovery";
-            this.lblSplitsRecovery.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnLegs.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.btnLegs.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLegs.ForeColor = System.Drawing.Color.SandyBrown;
+            this.btnLegs.Location = new System.Drawing.Point(101, 768);
+            this.btnLegs.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnLegs.Name = "btnLegs";
+            this.btnLegs.Size = new System.Drawing.Size(299, 52);
+            this.btnLegs.TabIndex = 19;
+            this.btnLegs.Text = "Legs";
+            this.btnLegs.UseVisualStyleBackColor = false;
+            this.btnLegs.Click += new System.EventHandler(this.btnLegs_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1696, 1040);
-            this.Controls.Add(this.lblSplitsRecovery);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.lblFullBody);
-            this.Controls.Add(this.lblSplitsLegs);
-            this.Controls.Add(this.lblSplitsPull);
-            this.Controls.Add(this.lblSplitsPush);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.lblStretch);
-            this.Controls.Add(this.lblCardio);
-            this.Controls.Add(this.lblBack);
-            this.Controls.Add(this.lblShoulders);
-            this.Controls.Add(this.lblLegs);
-            this.Controls.Add(this.lblArms);
-            this.Controls.Add(this.lblChest);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnLegs);
+            this.Controls.Add(this.btnPull);
+            this.Controls.Add(this.lbl3);
+            this.Controls.Add(this.lbl2);
+            this.Controls.Add(this.lbl1);
+            this.Controls.Add(this.btnPush);
+            this.Controls.Add(this.lbl9);
+            this.Controls.Add(this.lbl8);
+            this.Controls.Add(this.lbl7);
+            this.Controls.Add(this.lbl6);
+            this.Controls.Add(this.lbl5);
+            this.Controls.Add(this.lbl4);
+            this.Controls.Add(this.btnFullBody);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label lblChest;
-        private System.Windows.Forms.Label lblArms;
-        private System.Windows.Forms.Label lblLegs;
-        private System.Windows.Forms.Label lblShoulders;
-        private System.Windows.Forms.Label lblBack;
-        private System.Windows.Forms.Label lblCardio;
-        private System.Windows.Forms.Label lblStretch;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label lblFullBody;
-        private System.Windows.Forms.Label lblSplitsLegs;
-        private System.Windows.Forms.Label lblSplitsPull;
-        private System.Windows.Forms.Label lblSplitsPush;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label lblSplitsRecovery;
+        private System.Windows.Forms.Button btnFullBody;
+        private System.Windows.Forms.Label lbl4;
+        private System.Windows.Forms.Label lbl5;
+        private System.Windows.Forms.Label lbl6;
+        private System.Windows.Forms.Label lbl7;
+        private System.Windows.Forms.Label lbl8;
+        private System.Windows.Forms.Label lbl9;
+        private System.Windows.Forms.Label lbl3;
+        private System.Windows.Forms.Label lbl2;
+        private System.Windows.Forms.Label lbl1;
+        private System.Windows.Forms.Button btnPush;
+        private System.Windows.Forms.Button btnPull;
+        private System.Windows.Forms.Button btnLegs;
     }
 }
 
