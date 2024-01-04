@@ -26,5 +26,14 @@ namespace WindowsFormsApp2.Categories
             { walk1, jog1, elipticle10, backwardsWalk, inclineWalk, bike10, steps10 });
         }
 
+        public override WorkoutBodyPartCategoryTypeEnum GetWorkoutBodyPartCategoryType()
+        {
+            return WorkoutBodyPartCategoryTypeEnum.Cardio;
+        }
+
+        public override WorkoutCategorySplitTypeEnum GetWorkoutCategorySplitType()
+        {
+            return WorkoutCategorySplitTypeEnum.Recovery;
+        }
     }
 }

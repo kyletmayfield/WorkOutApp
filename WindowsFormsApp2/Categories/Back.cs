@@ -31,5 +31,15 @@ namespace WindowsFormsApp2.Categories
 
 
         }
+
+        public override WorkoutBodyPartCategoryTypeEnum GetWorkoutBodyPartCategoryType()
+        {
+            return WorkoutBodyPartCategoryTypeEnum.Back;
+        }
+
+        public override WorkoutCategorySplitTypeEnum GetWorkoutCategorySplitType()
+        {
+            return WorkoutCategorySplitTypeEnum.Pull;
+        }
     }
 }

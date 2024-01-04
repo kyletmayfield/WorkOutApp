@@ -46,12 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Categories\Arms.cs" />
+    <Compile Include="Categories\ArmsPush.cs" />
+    <Compile Include="Categories\ArmsPull.cs" />
     <Compile Include="Categories\Back.cs" />
     <Compile Include="Categories\Cardio.cs" />
     <Compile Include="Categories\Chest.cs" />
     <Compile Include="Categories\Legs.cs" />
-    <Compile Include="Categories\Shoulders.cs" />
+    <Compile Include="Categories\ShouldersPull.cs" />
+    <Compile Include="Categories\ShouldersPush.cs" />
     <Compile Include="Categories\Stretch.cs" />
     <Compile Include="Exercise.cs" />
     <Compile Include="ExerciseCategory.cs" />
@@ -112,6 +114,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WorkoutCategorySplitTypeEnum.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

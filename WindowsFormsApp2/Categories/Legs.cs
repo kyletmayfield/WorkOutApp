@@ -27,5 +27,15 @@ namespace WindowsFormsApp2.Categories
                 squats, legLifts, legCurls, hipInduction, hipAbduction, glutes, calfRaises
             });
         }
+
+        public override WorkoutBodyPartCategoryTypeEnum GetWorkoutBodyPartCategoryType()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override WorkoutCategorySplitTypeEnum GetWorkoutCategorySplitType()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

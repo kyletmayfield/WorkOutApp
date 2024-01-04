@@ -8,23 +8,28 @@ using WindowsFormsApp2;
 
 namespace kmParctice2.Categories
 {
-    public class Shoulders : ExerciseCategory
+    public class ShouldersPush : ExerciseCategory
     {
-        public Shoulders()
+        public ShouldersPush()
         {
             ShoulderInclinePress shoulderInclinePress = new ShoulderInclinePress();
-            BentRearDelts bentRearDelts = new BentRearDelts();
-            SeatedRearDelts seatedRearDelts = new SeatedRearDelts();
             CableShoulders cableShoulders = new CableShoulders();
-            FrontRaises frontRaises = new FrontRaises();
-            SideRaises sideRaises = new SideRaises();
-            LatteralRaises latteralRaises = new LatteralRaises();
 
             Exercises = new List<Exercise>();
             
             Exercises.AddRange(new Exercise[] {
-                shoulderInclinePress, bentRearDelts, seatedRearDelts, cableShoulders, frontRaises, sideRaises, latteralRaises
+                shoulderInclinePress, cableShoulders
             });
+        }
+
+        public override WorkoutBodyPartCategoryTypeEnum GetWorkoutBodyPartCategoryType()
+        {
+            return WorkoutBodyPartCategoryTypeEnum.Shoulders;
+        }
+
+        public override WorkoutCategorySplitTypeEnum GetWorkoutCategorySplitType()
+        {
+            return WorkoutCategorySplitTypeEnum.Push;
         }
     }
 }

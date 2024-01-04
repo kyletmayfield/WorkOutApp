@@ -20,21 +20,26 @@ namespace WindowsFormsApp2
             InitializeComponent();
         }
 
+        //button for full body workout
         private void button1_Click(object sender, EventArgs e)
         {
 
             Chest chest = new Chest();
-            Shoulders shoulders = new Shoulders();
+            ShouldersPull shouldersPull = new ShouldersPull();
+            ShouldersPush shouldersPush = new ShouldersPush();
             Back back = new Back();
-            Arms arms = new Arms();
+            ArmsPull armsPull = new ArmsPull();
+            ArmsPush armsPush = new ArmsPush();
             Legs legs = new Legs();
             Stretch stretch = new Stretch();
             Cardio cardio = new Cardio();
 
             string chestWorkoutName = getRandomWorkoutFromCategory(chest);
-            string shouldersWorkoutName = getRandomWorkoutFromCategory(shoulders);
+            string shouldersPullWorkoutName = getRandomWorkoutFromCategory(shouldersPull);
+            string shouldersPushWorkoutName = getRandomWorkoutFromCategory(shouldersPush);
             string backWorkoutName = getRandomWorkoutFromCategory(back);
-            string armsWorkoutName = getRandomWorkoutFromCategory(arms);
+            string armsPullWorkoutName = getRandomWorkoutFromCategory(armsPull);
+            string armsPushWorkoutName = getRandomWorkoutFromCategory(armsPush);
             string legsWorkoutName = getRandomWorkoutFromCategory(legs);
             string stretchWorkoutName = getRandomWorkoutFromCategory(stretch);
             string cardioWorkoutName = getRandomWorkoutFromCategory(cardio);
@@ -42,18 +47,28 @@ namespace WindowsFormsApp2
             //assign your labels with the workout names 
             lblChest.Text = chestWorkoutName;
             lblBack.Text = backWorkoutName;
-            lblArms.Text = armsWorkoutName;
+            lblArms.Text = armsPullWorkoutName;
             lblLegs.Text = legsWorkoutName;
             lblCardio.Text = cardioWorkoutName;
             lblStretch.Text = stretchWorkoutName;
-            lblShoulders.Text = shouldersWorkoutName;
-
+            lblShoulders.Text = shouldersPullWorkoutName;
+            
         }
         private string getRandomWorkoutFromCategory(ExerciseCategory category)
         {
             Random rnd = new Random();
             int index = rnd.Next(0, category.Exercises.Count - 1);
             return category.Exercises[index].ExerciseName;
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -9,15 +9,13 @@ using WindowsFormsApp2;
 
 namespace WindowsFormsApp2.Categories
 {
-    public class Arms : ExerciseCategory
+    public class ArmsPush : ExerciseCategory
     {
-        public Arms() 
+        public ArmsPush() 
         {
             CableTricepts cableTricepts = new CableTricepts();
             IsolatedTricepts isolatedTricepts = new IsolatedTricepts();
             VerticleBarBellCurls verticleBarBellCurls = new VerticleBarBellCurls();
-            PreacherCurls preacherCurls = new PreacherCurls();
-            InclineDumBellCurls inclineDumBellCurls = new InclineDumBellCurls();
             DipsMachine dipsMachine = new DipsMachine();
             ForeArms foreArms = new ForeArms();
 
@@ -25,9 +23,19 @@ namespace WindowsFormsApp2.Categories
 
             Exercises.AddRange(new Exercise[] 
             {
-                cableTricepts, isolatedTricepts, verticleBarBellCurls, preacherCurls, foreArms, inclineDumBellCurls, dipsMachine
+                cableTricepts, isolatedTricepts, verticleBarBellCurls, foreArms, dipsMachine
             });
 
+        }
+
+        public override WorkoutBodyPartCategoryTypeEnum GetWorkoutBodyPartCategoryType()
+        {
+            return WorkoutBodyPartCategoryTypeEnum.Arms;
+        }
+
+        public override WorkoutCategorySplitTypeEnum GetWorkoutCategorySplitType()
+        {
+            return WorkoutCategorySplitTypeEnum.Push;
         }
     }
 }

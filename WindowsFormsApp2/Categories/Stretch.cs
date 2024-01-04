@@ -27,5 +27,15 @@ namespace WindowsFormsApp2.Categories
                 hamstrings, shoulderFocus, backFocus, chestFocus, hipFocus, balanceFocus, coreFocus
             });
         }
+
+        public override WorkoutBodyPartCategoryTypeEnum GetWorkoutBodyPartCategoryType()
+        {
+            return WorkoutBodyPartCategoryTypeEnum.Recovery;
+        }
+
+        public override WorkoutCategorySplitTypeEnum GetWorkoutCategorySplitType()
+        {
+            return WorkoutCategorySplitTypeEnum.Recovery;
+        }
     }
 }

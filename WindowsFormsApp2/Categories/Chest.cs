@@ -28,5 +28,15 @@ namespace WindowsFormsApp2
                 benchPress, inclinePress, declinePress, flys, pushUps, dips, diamonds
             });
         }
+
+        public override WorkoutBodyPartCategoryTypeEnum GetWorkoutBodyPartCategoryType()
+        {
+            return WorkoutBodyPartCategoryTypeEnum.Chest;
+        }
+
+        public override WorkoutCategorySplitTypeEnum GetWorkoutCategorySplitType()
+        {
+            return WorkoutCategorySplitTypeEnum.Push;
+        }
     }
 }
