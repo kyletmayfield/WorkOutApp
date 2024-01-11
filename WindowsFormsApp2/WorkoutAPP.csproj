@@ -100,6 +100,7 @@
     <Compile Include="Exercises\SeatedRow.cs" />
     <Compile Include="Exercises\ShoulderFocus.cs" />
     <Compile Include="Exercises\ShoulderInclinePress.cs" />
+    <Compile Include="Exercises\ShoulderWide.cs" />
     <Compile Include="Exercises\SideRaises.cs" />
     <Compile Include="Exercises\Squats.cs" />
     <Compile Include="Exercises\Steps10.cs" />
