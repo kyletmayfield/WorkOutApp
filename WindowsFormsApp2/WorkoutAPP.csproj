@@ -46,13 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Categories\ArmsPull2.cs" />
+    <Compile Include="Categories\ArmsPush2.cs" />
     <Compile Include="Categories\ArmsPush.cs" />
     <Compile Include="Categories\ArmsPull.cs" />
+    <Compile Include="Categories\Back2.cs" />
     <Compile Include="Categories\Back.cs" />
     <Compile Include="Categories\Cardio.cs" />
+    <Compile Include="Categories\Chest2.cs" />
     <Compile Include="Categories\Chest.cs" />
+    <Compile Include="Categories\Legs5.cs" />
+    <Compile Include="Categories\Legs4.cs" />
+    <Compile Include="Categories\Legs3.cs" />
+    <Compile Include="Categories\Legs2.cs" />
     <Compile Include="Categories\Legs.cs" />
+    <Compile Include="Categories\ShouldersPull2.cs" />
     <Compile Include="Categories\ShouldersPull.cs" />
+    <Compile Include="Categories\ShouldersPush 2.cs" />
     <Compile Include="Categories\ShouldersPush.cs" />
     <Compile Include="Categories\Stretch.cs" />
     <Compile Include="Exercise.cs" />

@@ -61,7 +61,7 @@ namespace WindowsFormsApp2
         private string getRandomWorkoutFromCategory(ExerciseCategory category)
         {
             Random rnd = new Random();
-            int index = rnd.Next(0, category.Exercises.Count - 1);
+            int index = rnd.Next(0, category.Exercises.Count);
             return category.Exercises[index].ExerciseName;
         }
 
@@ -73,23 +73,29 @@ namespace WindowsFormsApp2
         private void btnPush_Click(object sender, EventArgs e)
         {
             Chest chest = new Chest();
+            Chest2 chest2 = new Chest2();
             ShouldersPush shouldersPush = new ShouldersPush();
+            ShouldersPush2 shouldersPush2 = new ShouldersPush2();
             ArmsPush armsPush = new ArmsPush();
+            ArmsPush2 armsPush2 = new ArmsPush2();
             Stretch stretch = new Stretch();
             Cardio cardio = new Cardio();
 
             string chestWorkoutName = getRandomWorkoutFromCategory(chest);
+            string chestWorkoutNameTwo = getRandomWorkoutFromCategory(chest2);
             string shouldersPushWorkoutName = getRandomWorkoutFromCategory(shouldersPush);
+            string shouldersPushWorkoutNameTwo = getRandomWorkoutFromCategory(shouldersPush2);
             string armsPushWorkoutName = getRandomWorkoutFromCategory(armsPush);
+            string armsPushWorkoutNameTwo = getRandomWorkoutFromCategory(armsPush2);
             string stretchWorkoutName = getRandomWorkoutFromCategory(stretch);
             string cardioWorkoutName = getRandomWorkoutFromCategory(cardio);
 
             lbl1.Text = chestWorkoutName;
             lbl2.Text = shouldersPushWorkoutName;
             lbl3.Text = armsPushWorkoutName;
-            lbl4.Text = chestWorkoutName;
-            lbl5.Text = shouldersPushWorkoutName;
-            lbl6.Text = armsPushWorkoutName;
+            lbl4.Text = chestWorkoutNameTwo;
+            lbl5.Text = shouldersPushWorkoutNameTwo;
+            lbl6.Text = armsPushWorkoutNameTwo;
             lbl7.Text = stretchWorkoutName;
             lbl8.Text = cardioWorkoutName;
         }
@@ -97,23 +103,29 @@ namespace WindowsFormsApp2
         private void btnPull_Click(object sender, EventArgs e)
         {
             ShouldersPull shouldersPull = new ShouldersPull();
+            ShouldersPull2 shouldersPull2 = new ShouldersPull2();
             Back back = new Back();
+            Back2 back2 = new Back2();
             ArmsPull armsPull = new ArmsPull();
+            ArmsPull2 armsPull2 = new ArmsPull2();
             Stretch stretch = new Stretch();
             Cardio cardio = new Cardio();
 
             string shouldersPullWorkoutName = getRandomWorkoutFromCategory(shouldersPull);
+            string shouldersPullWorkoutNameTwo = getRandomWorkoutFromCategory(shouldersPull2);
             string backWorkoutName = getRandomWorkoutFromCategory(back);
+            string backWorkoutNameTwo = getRandomWorkoutFromCategory(back2);
             string armsPullWorkoutName = getRandomWorkoutFromCategory(armsPull);
+            string armsPullWorkoutNameTwo = getRandomWorkoutFromCategory(armsPull2);
             string stretchWorkoutName = getRandomWorkoutFromCategory(stretch);
             string cardioWorkoutName = getRandomWorkoutFromCategory(cardio);
 
             lbl1.Text = shouldersPullWorkoutName;
             lbl2.Text = backWorkoutName;
             lbl3.Text = armsPullWorkoutName;
-            lbl4.Text = shouldersPullWorkoutName;
-            lbl5.Text = backWorkoutName;
-            lbl6.Text = armsPullWorkoutName;
+            lbl4.Text = shouldersPullWorkoutNameTwo;
+            lbl5.Text = backWorkoutNameTwo;
+            lbl6.Text = armsPullWorkoutNameTwo;
             lbl7.Text = stretchWorkoutName;
             lbl8.Text = cardioWorkoutName;
 
@@ -122,18 +134,26 @@ namespace WindowsFormsApp2
         private void btnLegs_Click(object sender, EventArgs e)
         {
             Legs legs = new Legs();
+            Legs2 legs2 = new Legs2();
+            Legs3 legs3 = new Legs3();
+            Legs4 legs4 = new Legs4();
+            Legs5 legs5 = new Legs5();
             Stretch stretch = new Stretch();
             Cardio cardio = new Cardio();
 
             string legsWorkoutName = getRandomWorkoutFromCategory(legs);
+            string legsWorkoutNameTwo = getRandomWorkoutFromCategory(legs2);
+            string legsWorkoutNameThree = getRandomWorkoutFromCategory(legs3);
+            string legsWorkoutNameFour = getRandomWorkoutFromCategory(legs4);
+            string legsWorkoutNameFive = getRandomWorkoutFromCategory(legs5);
             string stretchWorkoutName = getRandomWorkoutFromCategory(stretch);
             string cardioWorkoutName = getRandomWorkoutFromCategory(cardio);
 
             lbl1.Text = legsWorkoutName;
-            lbl2.Text = legsWorkoutName;
-            lbl3.Text = legsWorkoutName;
-            lbl4.Text = legsWorkoutName;
-            lbl5.Text = legsWorkoutName;
+            lbl2.Text = legsWorkoutNameTwo;
+            lbl3.Text = legsWorkoutNameThree;
+            lbl4.Text = legsWorkoutNameFour;
+            lbl5.Text = legsWorkoutNameFive;
             lbl6.Text = stretchWorkoutName;
             lbl7.Text = cardioWorkoutName;
 
